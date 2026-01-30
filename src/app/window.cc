@@ -7,6 +7,7 @@
 
 #include "app/app_settings.h"
 
+
 namespace petri::app {
 
 GlfwContext::GlfwContext() {

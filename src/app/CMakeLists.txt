@@ -24,4 +24,5 @@ target_link_libraries(engine_app PRIVATE
     glad_gl
     OpenGL::GL
     nlohmann_json
+    engine
 )

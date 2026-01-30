@@ -1,6 +1,9 @@
 # Changelog
 
-## [0.1.0] – Initial engine bootstrap
+## [0.1.0e] – Initial Engine bootstrap
+- Time counter with managing `DeltaSeconds`, `ElapsedSeconds`, `TimeScale`, `IsPaused`
+
+## [0.1.0] – Initial App bootstrap
 
 ### Added
 - Application bootstrap with clear lifecycle (`App`)

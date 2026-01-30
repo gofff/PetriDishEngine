@@ -18,6 +18,7 @@ endif()
 find_package(OpenGL REQUIRED)
 
 add_subdirectory(external)
+add_subdirectory(src/engine)
 add_subdirectory(src/app)
 
 add_executable(PetriDishEngine

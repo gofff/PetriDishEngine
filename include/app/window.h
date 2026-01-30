@@ -4,6 +4,7 @@
 #include <memory>
 #include <string>
 
+
 struct GLFWwindow;
 
 namespace petri::app {

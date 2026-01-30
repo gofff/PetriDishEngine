@@ -6,6 +6,7 @@
 #include "app/window.h"
 #include "app/app_settings.h"
 
+
 namespace petri {
 
 int App::Run() {
