@@ -1,5 +1,5 @@
-#ifndef PETRI_DISH_ENGINE_ENGINE_H
-#define PETRI_DISH_ENGINE_ENGINE_H
+#ifndef PETRI_DISH_ENGINE_TIME_H
+#define PETRI_DISH_ENGINE_TIME_H
 
 #include <chrono>
 
@@ -37,4 +37,4 @@ private:
 
 } // namespace petri::engine
 
-#endif // PETRI_DISH_ENGINE_ENGINE_H
+#endif // PETRI_DISH_ENGINE_TIME_H

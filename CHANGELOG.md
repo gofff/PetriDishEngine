@@ -2,6 +2,7 @@
 
 ## [0.1.0e] – Initial Engine bootstrap
 - Time counter with managing `DeltaSeconds`, `ElapsedSeconds`, `TimeScale`, `IsPaused`
+- Engine class bootstrap with Update() and managing Time object
 
 ## [0.1.0] – Initial App bootstrap
 
