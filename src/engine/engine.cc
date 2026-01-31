@@ -2,7 +2,12 @@
 
 #include <iostream>
 
+
 namespace petri::engine {
+void Engine::Init()
+{
+	world_.Init();
+}
 
 void Engine::Tick()
 {
@@ -11,9 +16,11 @@ void Engine::Tick()
 	render();
 }
 
-void Engine::update(double dt)
+void Engine::update(float dt)
 {
 	std::cout << "Engine update: " << dt << std::endl;
+	world_.Tick(dt);
+
 }
 
 void Engine::render()

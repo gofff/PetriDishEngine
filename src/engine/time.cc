@@ -10,7 +10,7 @@ Time::Time()
 void Time::Update()
 {
 	const Clock::time_point currentTick = Clock::now();
-	const std::chrono::duration<double> realDelta = currentTick - lastTick_;
+	const std::chrono::duration<float> realDelta = currentTick - lastTick_;
 	lastTick_ = currentTick;
 
 	if (isPaused_) {

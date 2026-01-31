@@ -2,17 +2,22 @@
 #define PETRI_DISH_ENGINE_ENGINE_H
 
 #include "engine/time.h"
+#include "engine/world.h"
 
 namespace petri::engine {
 
+class Time;
+
 class Engine {
 public:
+	void Init();
 	void Tick();
 
 private:
-	void update(double dt);
+	void update(float dt);
 	void render();
 
+	World world_;
 	Time time_;
 };
 
